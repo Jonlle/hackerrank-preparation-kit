@@ -1,18 +1,14 @@
-Aquí tienes la traducción al inglés de todo el contenido en español:
-
-````markdown
 # Plus Minus
 
-## Description
+### Description
 
-The task is to calculate the proportions of positive, negative, and zero values in a given array of integers. The function **`plusMinus`** receives an array of integers as its input and prints the proportions of positive, negative, and zero values, formatted to 6 decimal places.
+Calculates the frequency of positive, negative, and zero numbers in a given array, then divides each frequency by the size of the array (n). The **`plusMinus`** function takes an array of integers as input and prints the proportions of positive, negative, and zero values, formatted to 6 decimal places.
 
 ### Function Signature
 
 ```typescript
 function plusMinus(arr: number[]): void;
 ```
-````
 
 ### Input:
 
@@ -31,7 +27,6 @@ The function prints three lines:
 **Input:**
 
 ```
-6
 -4 3 -9 0 4 1
 ```
 

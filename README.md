@@ -1,6 +1,6 @@
 # HackerRank Preparation Kit Solutions
 
-This repository contains my solutions for the **1 Month Preparation Kit** on HackerRank. The challenges are organized by difficulty: **Basic**, **Intermediate**, and **Advanced**. Each folder includes the code solution and an explanation of the approach used.
+This repository contains my solutions for the **[1 Month Preparation Kit](https://www.hackerrank.com/domains/tutorials/10-days-of-javascript)** on HackerRank. The challenges are organized by difficulty: **Basic**, **Intermediate**, and **Advanced**. Each folder includes the code solution and an explanation of the approach used.
 
 ## Structure
 
@@ -13,7 +13,7 @@ This repository contains my solutions for the **1 Month Preparation Kit** on Hac
 
 Each challenge is in its own folder with the following structure:
 
-- `solution.<extension>`: The code implementation of the solution.
+- `solution.ts`: The code implementation of the solution.
 - `README.md`: A brief explanation of the problem, the approach used, and complexity analysis.
 
 ## How to Run
@@ -48,13 +48,13 @@ Each challenge is in its own folder with the following structure:
 If you want to run a specific test file, use the following command:
 
 ```bash
-npx jest tests/<path-to-test-file>.test.ts
+npx jest <challenge-name>
 ```
 
 For example, to test the solution for the **Plus Minus** challenge, you can run:
 
 ```bash
-npx jest tests/basic/plus-minus.test.ts
+npx jest plus-minus
 ```
 
 ## Challenges Covered
