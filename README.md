@@ -60,3 +60,5 @@ npx jest tests/basic/plus-minus.test.ts
 ## Challenges Covered
 
 ### Week 1
+
+- [Plus Minus](src/basic/plus-minus/)
