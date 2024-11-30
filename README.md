@@ -62,3 +62,4 @@ npx jest plus-minus
 ### Week 1
 
 - [Plus Minus](src/basic/plus-minus/)
+- [Mini Max Sum](src/basic/mini-max-sum/)
