@@ -1,20 +1,20 @@
 # Plus Minus
 
-### Description
+## Description
 
 Calculates the frequency of positive, negative, and zero numbers in a given array, then divides each frequency by the size of the array (n). The **`plusMinus`** function takes an array of integers as input and prints the proportions of positive, negative, and zero values, formatted to 6 decimal places.
 
-### Function Signature
+## Function Signature
 
 ```typescript
 function plusMinus(arr: number[]): void;
 ```
 
-### Input:
+## Input
 
 - arr: An array of integers, where arr.length = n (1 ≤ n ≤ 100).
 
-### Output:
+## Output
 
 The function prints three lines:
 
@@ -22,23 +22,23 @@ The function prints three lines:
 2. Proportion of negative values (to 6 decimal places).
 3. Proportion of zero values (to 6 decimal places).
 
-### Example
+## Example
 
 **Input:**
 
-```
+```text
 -4 3 -9 0 4 1
 ```
 
 **Output:**
 
-```
+```text
 0.500000
 0.333333
 0.166667
 ```
 
-### Explanation:
+## Explanation
 
 For the input array `[-4, 3, -9, 0, 4, 1]`, there are:
 
@@ -62,26 +62,23 @@ The solution code can be found in the `solution.ts` file.
 
 ## Tests
 
-Tests are included in the `tests/basic/plus-minus.test.ts` file. You can run all the tests using Jest, or specify an individual test file.
+Unit tests specific to this problem are included in the `tests/basic/plus-minus.test.ts` file.
 
-To run all tests:
-
-```bash
-npm test
-```
-
-To run a specific test:
+To run the tests for this challenge only:
 
 ```bash
 npm test plus-minus
 ```
 
+For more details on running tests and setting up the environment, refer to the [main README](../../../README.md).
+
 ## Notes
 
 - **Time Complexity:** O(N), where N is the number of elements in the array.
+- **Space Complexity:** \( O(1) \) (constant additional space usage).
 - **Required Knowledge:** Arrays and floating-point numbers.
 
 ## Additional Resources
 
-- Problem statement in [HackerRank](https://www.hackerrank.com/challenges/one-month-preparation-kit-plus-minus/problem).
-- Editorial: statistics and featured solutions in other languages [here](https://www.hackerrank.com/challenges/one-month-preparation-kit-plus-minus/editorial).
+- **Problem Statement:** [HackerRank](https://www.hackerrank.com/challenges/one-month-preparation-kit-plus-minus/problem).
+- **Editorial:** Official editorial with tips, statistics, and solutions in other programming languages [here](https://www.hackerrank.com/challenges/one-month-preparation-kit-plus-minus/editorial).

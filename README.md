@@ -33,6 +33,7 @@ Each challenge is in its own folder with the following structure:
    ```
 
 2. Install dependencies:
+
    ```bash
    npm install
    ```
